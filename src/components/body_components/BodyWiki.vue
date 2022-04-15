@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>bldsdsb</h2>
+        <a href="https://en.wikipedia.org/wiki/Super_Mario_Bros." alt="wiki mario link">Click me for Mario Wiki!</a>
     </div>
 </template>
 
@@ -10,6 +10,8 @@
     }
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+a {
+    font-size:50px;
+}
 </style>

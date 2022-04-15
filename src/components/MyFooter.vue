@@ -1,5 +1,5 @@
 <template>
-    <h3>sgdsg</h3>
+    <h2> Copyright © 2022 SamanthaWebDev</h2>
 </template>
 
 <script>
