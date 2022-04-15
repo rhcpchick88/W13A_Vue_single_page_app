@@ -8,6 +8,7 @@
     export default {
         name: "BodyWiki"
     }
+//exported the component so it is usable
 </script>
 
 <style scoped>

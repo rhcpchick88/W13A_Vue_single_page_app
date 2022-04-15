@@ -8,6 +8,7 @@
     export default {
         name : "BodyPic"
     }
+    //exported the component so it is usable
 </script>
 
 <style scoped>

@@ -1,5 +1,6 @@
 <template>
-  <div id="app">
+<!-- //adding components into the div -->
+  <div id="app"> 
     <MyHeader/>
     <MyBody/>
     <MyFooter/>
@@ -7,7 +8,7 @@
 </template>
 
 <script>
-
+//importing my components
 import MyHeader from "./components/MyHeader.vue"
 import MyFooter from "./components/MyFooter.vue"
 import MyBody from "./components/MyBody.vue"
@@ -17,14 +18,14 @@ export default {
   components: {
     MyHeader,
     MyFooter,
-    MyBody
+    MyBody  //declaring my components as part of app
   }
 }
 </script>
 
 <style>
-
-* {
+//removing default styling
+* { 
   margin:0;
   padding:0;
   box-sizing:border-box;
